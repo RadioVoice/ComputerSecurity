@@ -1,6 +1,7 @@
 # ComputerSecurity
 
 Analysis of Program 1:
+This program calculates and prints (3*5)-1 = 14
 
 push    ebp //push ebp onto the stack
 mov     ebp, esp //set ebp to esp
@@ -31,3 +32,15 @@ retn
 _main endp
 
 
+Analysis of Program 2:
+This program loops through the array and prints the highest value, 221.
+
+
+Analysis of Program 3:
+Loops index from 100-999 and prints whenever the index is ~~something~~, can't tell what
+
+
+Analysis of Program 4:
+Very hard to tell what it does, it fills the stack with 100 addresses then calls another
+function to do something on the values. Subfunction loops many times through, hard to tell what it does.
+Prints the answer to the subfunction, which turns out to be 50.

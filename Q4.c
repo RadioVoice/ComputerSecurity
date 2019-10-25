@@ -45,9 +45,7 @@ int proc1(int* ptr, int b, int a){
 			//~~~~~~~~~~~
 		}
 		
-		do {
-			
-		}while(eax != 0)
+		
 		
 	}
 }
