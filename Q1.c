@@ -1,6 +1,6 @@
-//This program calculates and prints (3*5)-1 = 14
-
 #include <stdio.h>
+
+//This program calculates and prints (3*5)-1 = 14
 int main(void){
 	
 	//esp to 11111111 11111111 11111111 11110000
