@@ -2,27 +2,20 @@
 int main(void){
 	
 	int x = [12,15,221,3,432,54,16,67];
+	int max = 0;
 	int i = 0;
-	int j = 0;
 	
-	int eax;
-	
-	while(j <= 7){
-		eax = x[j];
+	while(i <= 7){
 		
-		if(eax <= i){
-			j = j+1;
-		}
-		else{
-			eax = x[j];
-			i = eax;
+		if(x[i] > max){
+			max = x[i];
 		}
 		
+		i = i+1;
 	}
-	eax = i;
-	printf("%d", eax);
-    
+	
+	printf("%d", i);
 }
 
 
-//This program finds the largest number in an array and prints it out
+//This program loops through the array and prints the highest value, 221.
